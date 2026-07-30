@@ -38,6 +38,22 @@ This project also helped me learn how professional software projects are documen
 (Flask Libraries)
 
 ---
+# 📂 Project Structure
+
+```
+SQLi_lab/
+│
+├── database.db          # SQLite database created automatically by init_db.py
+├── init_db.py           # Script to create tables and insert dummy data
+├── app.py               # Flask web app with vulnerable & secure login routes
+├── scanner.py           # Python script that sends SQLi payloads & detects vulnerabilities
+│
+└── venv/                # Virtual environment containing installed packages (flask, requests)
+    ├── Include/
+    ├── Lib/
+    ├── Scripts/         # Contains activate.bat / Activate.ps1
+    └── pyvenv.cfg
+```
 # 💡 Learning Outcomes
 
 Through this project I learned:
@@ -115,20 +131,11 @@ Special thanks to my trainer **Anurag Dubey** for his continuous guidance, suppo
 
 This project reflects the knowledge and practical skills gained during the training program.
 
-# 📂 Project Structure
 
-```
-SQLi_lab/
-│
-├── database.db          # SQLite database created automatically by init_db.py
-├── init_db.py           # Script to create tables and insert dummy data
-├── app.py               # Flask web app with vulnerable & secure login routes
-├── scanner.py           # Python script that sends SQLi payloads & detects vulnerabilities
-│
-└── venv/                # Virtual environment containing installed packages (flask, requests)
-    ├── Include/
-    ├── Lib/
-    ├── Scripts/         # Contains activate.bat / Activate.ps1
-    └── pyvenv.cfg
+
 ---
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/ae82bfec-f21d-4e90-99cc-552ef2b1d3bf" />
+<img width="1920" height="1080" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/97bc2d0b-007f-48d4-ada3-cb1b2d83c3a5" />
+<img width="1920" height="1080" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/275de1cc-9f19-4c03-a54b-f466a0c2f18c" />
+
 
